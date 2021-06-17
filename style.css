@@ -1,0 +1,253 @@
+
+:root{
+    --black: #2a2a2a;
+    --section-left-right-padding: 0 4rem;
+}
+
+body{
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    position: relative;
+    /* border: 1px solid green; */
+
+
+    /* background: #5392C7;
+    background: -webkit-linear-gradient(top left, #5392C7, #EAEA65);
+    background: -moz-linear-gradient(top left, #5392C7, #EAEA65);
+    background: linear-gradient(to bottom right, #5392C7, #EAEA65); */
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+
+nav{
+    top: 0;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    height: 3.33rem;
+
+    /* background-color: lightgoldenrodyellow; */
+    /* background-color: #5392C7; */
+    /* border: 1px solid lightcoral; */
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+
+    margin: 0;
+    padding-left: 0;
+}
+
+li{
+    width: 100px;
+}
+
+li a{
+    color: #382c27;
+    font-size: 20px;
+}
+
+li:last-of-type{
+    position: absolute;
+    right: 0;
+}
+
+li:last-of-type a{
+    position: absolute;
+    right: 0;
+}
+
+h1{
+    color: #382c27;
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 45px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 0;
+    color: #382c27;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.logo-decoration{
+    width: 50px;
+    height: auto;
+    /* filter: drop-shadow(3px 3px 3px #747474); */
+    filter: drop-shadow(3px 3px 3px #7dadd4);
+}
+
+section{
+    position: relative;
+    min-height: 250px;
+}
+section:first-of-type{
+    margin-top: 40px;
+}
+
+
+
+.width-100-percent{
+    width: 100%;
+}
+.margin-top-large{
+    margin-top: 130px;
+}
+
+
+
+.align-items-center{
+    display: flex;
+    align-items: center;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+#screenshots{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* border: 1px solid firebrick; */
+}
+
+.carousel.container{
+    /* border: 1px solid royalblue; */
+    /* width: 500px; */
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*  box-shadow is from materialize css's website */
+    box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.14),
+        0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2);
+}
+
+.container img {
+    width: 100%;
+    z-index: -2;
+}
+
+button {
+    height: 10%;
+    border: none;
+    /* outline: none; */
+    /* background: rgba(0, 0, 0, 0.5); */
+    /* background: #fff1eb; */
+    background: rgba(255, 241, 235, .7);
+    cursor: pointer;
+    padding: 1em;
+    display: flex;
+}
+
+button .arrow {
+    /* border: solid #fff; */
+    border: solid var(--black);
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 10px;
+    transition: transform 0.3s ease-out;
+    outline: none;
+}
+
+#right-btn {
+    /* margin: auto 0 auto -2em; */
+    margin: auto 0 auto -1rem;
+}
+
+#right-btn .arrow {
+    transform: rotate(-45deg);
+}
+
+#left-btn {
+    z-index: 0;
+    margin: auto -1rem auto 0;
+}
+
+#left-btn .arrow {
+    transform: rotate(135deg);
+}
+
+
+
+.img-hidden{
+    display: none;
+}
+
+#about h2{
+    padding: var(--section-left-right-padding);
+}
+
+
+section#author{
+    display: flex;
+
+    padding: var(--section-left-right-padding);
+}
+
+section#author p{
+    margin-top: 0;
+}
+
+/* my photo */
+.myself{
+    width: 310px;
+    height: 250px;
+    margin-left: 100px;
+}
+
+
+#privacy{
+    padding: var(--section-left-right-padding);
+}
+
+section a{
+    color: #382c27;
+}
+
+#credits{
+    padding-top: 3rem;
+}
+/* footer{
+    background: darkslategray;
+    height: 200px;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    width: 100vw;
+} */
+
+
+@media only screen and (max-width: 799px){
+    body{
+        width: 100vw;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 800px){
+    body{
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    nav{
+        width: 800px;
+    }
+}
