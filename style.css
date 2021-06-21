@@ -4,6 +4,10 @@
     --section-left-right-padding-skinny: 0 2rem;
 }
 
+*{
+    color: var(--black);
+}
+
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
@@ -46,7 +50,8 @@ nav li{
 }
 
 nav li a{
-    color: #382c27;
+    /* color: #382c27; */
+    color: var(--black);
     font-size: 20px;
 }
 
@@ -72,7 +77,8 @@ h1{
 h2{
     text-align: center;
     margin-top: 0;
-    color: #382c27;
+    /* color: #382c27; */
+    color: var(--black);
 }
 
 .logo-container{
@@ -130,6 +136,12 @@ section,
 
 }
 
+.main-info{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 0;
+}
+
 #author, #privacy{
     padding: var(--section-left-right-padding);
 
@@ -178,20 +190,23 @@ button .arrow {
 }
 
 #right-btn {
-    margin: auto 0 auto -1rem;
+    /* margin: auto 0 auto -1rem; */
+    margin: auto 0 auto 1rem;
 }
 
 #right-btn .arrow {
-    transform: rotate(-45deg);
+    /* transform: rotate(-45deg); */
+    transform: rotate(-45deg) translate(-3px, -3px);
 }
 
 #left-btn {
     z-index: 0;
-    margin: auto -1rem auto 0;
+    /* margin: auto -1rem auto 0; */
+    margin: auto 1rem auto 0;
 }
 
 #left-btn .arrow {
-    transform: rotate(135deg);
+    transform: rotate(135deg) translate(-3px, -3px);
 }
 
 
@@ -254,10 +269,12 @@ section a{
 }
 
 
-@media only screen and (max-width: 869px){
+/* @media only screen and (max-width: 869px){ */
+@media only screen and (max-width: 949px){
 
     body{
-        width: 100vw;
+        /* width: 100vw; */
+        width: 800px;
         margin: auto;
     }
 
@@ -350,7 +367,8 @@ section a{
     }
 }
 
-@media only screen and (min-width: 540px) and (max-width: 869px){
+/* @media only screen and (min-width: 540px) and (max-width: 869px){ */
+@media only screen and (min-width: 540px) and (max-width: 949px){
 
     nav{
         box-sizing: border-box;
@@ -374,7 +392,8 @@ section a{
     }
 }
 
-@media only screen and (min-width: 870px){
+/* @media only screen and (min-width: 870px){ */
+@media only screen and (min-width: 950px){
 
     body{
         width: 800px;

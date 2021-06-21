@@ -3,14 +3,9 @@
 // https://www.css-gradient.com/
 // https://cssgradient.io/gradient-backgrounds/
 // https://purple11.com/complementary-colors/
-// carousel code by Andrew Zamora
+// carousel code by Andrew Zamora, tweaked a bit
 
 const {log}= console
-
-
-log('hello news')
-
-
 const millis = 5000
 let interval = setInterval(changeImage, millis)
 
