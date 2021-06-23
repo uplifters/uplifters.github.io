@@ -59,7 +59,7 @@ function changeImage(){
 document.addEventListener('DOMContentLoaded', async ev =>{
 
     // const url = 'http://localhost:7001/log-uplifters?x=first-test'
-    const url = 'https://www.library-on-mars.com/log-uplifters?x=test-02'
+    const url = 'https://www.library-on-mars.com/log-uplifters'
     fetch( url, {
         method: 'POST'
     })
