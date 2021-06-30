@@ -13,3 +13,4 @@ https://www.npmjs.com/package/geo-from-ip
 ### ideas:
 - regarding installation - add proper "call to action" button
 - replace links with supported sites with their black-and-white logos (will make better impression)
+- add more visible patreon link/call to action, under my pic, big logo?

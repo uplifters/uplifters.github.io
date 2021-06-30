@@ -96,6 +96,7 @@ h2{
 section{
     position: relative;
     min-height: 250px;
+    scroll-margin-top: 72px;
 }
 section:first-of-type{
     margin-top: 40px;
