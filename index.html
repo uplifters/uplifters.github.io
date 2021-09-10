@@ -8,6 +8,10 @@
         <meta name="google-site-verification" content="04f7ostyZiPI3ao-cC0qQbLqns7p3LU_kiGLHYZGH78" />
         <link rel="stylesheet" href="/style.css" >
         <title>Uplifters browser plugin</title>
+        <style nonce>
+            /* @font-face{font-family:'Product Sans';font-style:normal;font-weight:400;src:url(//fonts.gstatic.com/s/productsans/v9/pxiDypQkot1TnFhsFMOfGShVGdeOYktMqlap.woff2)format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;} */
+            @font-face{font-family:'Product Sans';font-style:normal;font-weight:400;src:url(//fonts.gstatic.com/s/productsans/v9/pxiDypQkot1TnFhsFMOfGShVF9eOYktMqg.woff2)format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
+        </style>
     </head>
     <body id="body">
         <nav>
@@ -69,8 +73,7 @@
             
             <ul class="supported-pages" id="supported-pages">
                 <label for="supported-pages">Pages currently supported:</label>
-                <li><a href="https://www.bbc.com" target="_blank" rel="noopener noreferrer">BBC</a></li>
-                <li><a href="https://www.bbc.com/news" target="_blank" rel="noopener noreferrer">BBC News</a></li>
+                <!-- <li><a href="https://www.bbc.com/news" target="_blank" rel="noopener noreferrer">BBC News</a></li>
                 <li><a href="https://www.nytimes.com" target="_blank" rel="noopener noreferrer">New York Times</a></li>
                 <li><a href="https://www.theguardian.com/international" target="_blank" rel="noopener noreferrer">The Guardian</a></li>
                 <li><a href="https://edition.cnn.com" target="_blank" rel="noopener noreferrer">CNN</a></li>
@@ -81,17 +84,143 @@
                 <li><a href="https://www.wsj.com" target="_blank" rel="noopener noreferrer">Wall Street Journal</a></li>
                 <li><a href="https://www.npr.org/sections/news/" target="_blank" rel="noopener noreferrer">NPR</a></li>
                 <li><a href="https://www.msn.com/" target="_blank" rel="noopener noreferrer">MSN</a></li>
-                <li><a href="https://www.yahoo.com/" target="_blank" rel="noopener noreferrer">Yahoo</a></li>
-                <!-- <li><a href="https://www.msn.com/" target="_blank" rel="noopener noreferrer">MSN</a></li> -->
-                <!-- <br/> -->
-                <!-- <li class="inactive"><p>MSN (coming soon)</p></li> -->
-                <!-- <li class="inactive"><p>Yahoo + Yahoo News (coming soon)</p></li> -->
+                <li><a href="https://www.yahoo.com/" target="_blank" rel="noopener noreferrer">Yahoo</a></li> -->
+
+                <div class="list-container">
+                    <ul>
+                        <li class="logoXXX img-BW scale1-20">
+                            <a href="https://www.bbc.com/news" target="_blank" rel="noopener noreferrer">
+                                <img src="resources/images/logos/bbc-1.png" alt="BBC"/>
+                            </a>
+                        </li>
+                        <li class="logoXXX img-BW">
+                            <a href="https://www.nytimes.com" target="_blank" rel="noopener noreferrer">
+                                <img src="resources/images/logos/The_New_York_Times_logo.png" alt="New York Times"/>
+                            </a>
+                        </li>
+                        <li class="logoXXX img-BW">
+                            <a href="https://www.theguardian.com/international" target="_blank" rel="noopener noreferrer">
+                                <img src="resources/images/logos/The_Guardian_2018.svg" alt="The Guardian"/>
+                            </a>
+                        </li>
+                        <li class="logoXXX img-BW cnn">
+                            <a href="https://edition.cnn.com/" target="_blank" rel="noopener noreferrer">
+                                <img src="resources/images/logos/cnn1.png" alt="CNN"/>
+                            </a>
+                        </li>
+                        <li class="logoXXX img-BW align-items-center margin-auto">
+                            <a href="https://news.google.com/" target="_blank" rel="noopener noreferrer" class="text-decoration-none google">
+                                <span class="google">Google News</span>
+                            </a>
+                        </li>
+                        <li class="logoXXX img-BW">
+                            <a href="https://www.washingtonpost.com/" target="_blank" rel="noopener noreferrer">
+                                <img src="resources/images/logos/Washington_Post.svg" alt="The Washington Post"/>
+                            </a>
+                        </li>
+                        <li class="logoXXX img-BW">
+                            <a href="https://www.reuters.com/" target="_blank" rel="noopener noreferrer">
+                                <img src="resources/images/logos/Reuters_Logo.svg" alt="Reuters"/>
+                            </a>
+                        </li>
+        
+                        <li class="logoXXX img-BW scale075">
+                            <a href="https://www.huffpost.com/" target="_blank" rel="noopener noreferrer">
+                                <img src="resources/images/logos/HuffPost-logo.svg" alt="Huffpost"/>
+                            </a>
+                        </li>
+    
+                        <li class="logoXXX img-BW wsj">
+                            <a href="https://www.wsj.com/" target="_blank" rel="noopener noreferrer">
+                                <img src="resources/images/logos/wsj-logo-1.svg" alt="The Wall Street Journal"/>
+                            </a>
+                        </li>
+        
+                        <li class="logoXXX npr img-BW">
+                            <a href="https://www.npr.org/sections/news/" target="_blank" rel="noopener noreferrer">
+                                <img src="resources/images/logos/Npr-Logo.png" alt="NPR News"/>
+                            </a>
+                        </li>
+
+                        <li class="logoXXX img-BW">
+                            <a href="https://www.msn.com/" target="_blank" rel="noopener noreferrer">
+                                <img src="resources/images/logos/msn.svg" alt="MSN"/>
+                            </a>
+                        </li>
+                    </ul>
+    
+                    <ul>
+                        
+                        <li class="logoXXX img-BW">
+                            <a href="https://www.yahoo.com/" target="_blank" rel="noopener noreferrer">
+                                <img src="resources/images/logos/yahoo1.png" alt="Yahoo"/>
+                            </a>
+                        </li>
+        
+                        <li class="logoXXX img-BW">
+                            <a href="https://www.usatoday.com/" target="_blank" rel="noopener noreferrer">
+                                <img src="resources/images/logos/USA_Today.svg" alt="USA Today"/>
+                            </a>
+                        </li>
+                        
+                        <li class="logoXXX img-BW the-independent">
+                            <a href="https://www.independent.co.uk/" target="_blank" rel="noopener noreferrer">
+                                <img src="resources/images/logos/independent1.png" alt="The Independent"/>
+                            </a>
+                        </li>
+        
+                        <li class="logoXXX img-BW scale075">
+                            <a href="https://www.nbcnews.com/" target="_blank" rel="noopener noreferrer">
+                                <img src="resources/images/logos/nbc-news-logo.png" alt="NBC News"/>
+                            </a>
+                        </li>
+                        
+                        
+                        <li class="logoXXX img-BW scale075">
+                            <a href="https://www.cbsnews.com/" target="_blank" rel="noopener noreferrer">
+                                <img src="resources/images/logos/CBS_News_logo_(2020).svg" alt="CBS News"/>
+                            </a>
+                        </li>
+                        
+                        <li class="logoXXX img-BW">
+                            <a href="https://abcnews.go.com/" target="_blank" rel="noopener noreferrer">
+                                <img src="resources/images/logos/ABC_News.svg" alt="ABC News"/>
+                            </a>
+                        </li>
+                        
+                        <li class="logoXXX img-BW cbc scale1-60">
+                            <a href="https://www.cbc.ca/news" target="_blank" rel="noopener noreferrer">
+                                <img src="resources/images/logos/CBC_News_Logo.svg" alt="CBC News"/>
+                            </a>
+                        </li>
+                        
+                        <li class="logoXXX img-BW">
+                            <a href="https://www.abc.net.au/news/" target="_blank" rel="noopener noreferrer">
+                                <img src="resources/images/logos/abc-news-logo-01.png" alt="ABC News Australia"/>
+                            </a>
+                        </li>
+        
+                        <li class="logoXXX img-BW">
+                            <a href="https://news.sky.com/" target="_blank" rel="noopener noreferrer">
+                                <img src="resources/images/logos/sky-news-logo.svg" alt="Sky News"/>
+                            </a>
+                        </li>
+                        
+                        <li class="logoXXX img-BW scale1-35">
+                            <a href="https://www.aljazeera.com/news/" target="_blank" rel="noopener noreferrer">
+                                <img src="resources/images/logos/al-jazeera-2.svg" alt="Al Jazeera"/>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </ul>
         </section>
+
 
         <div class="logo-container width-100-percent">
             <img src="/resources/images/butterfly1.png" class="logo-decoration" alt="">
         </div>
+
 
         <section id="author" class="align-items-center margin-top-large change-flex-direction">
             <div>
@@ -122,11 +251,10 @@
 
         <section id="credits" class="keep-column text-align-center">
             <p>
-                Credits go to all writers of the articles we show to you.
+                Credits go to all writers of the articles we show to you.<br/>
+                Icons were made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank" rel="noopener noreferrer">www.flaticon.com</a>.
             </p>
-            <p>
-                Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank" rel="noopener noreferrer">www.flaticon.com</a>.
-            </p>
+            
             <br/>
             <br/>
             <p>Have ideas? Let me know on <a href="https://twitter.com/okram_ovic" target="_blank" rel="noopener noreferrer">Twitter</a>.</p>
